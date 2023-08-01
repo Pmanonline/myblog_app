@@ -23,7 +23,7 @@ export default function Write() {
       const formData = new FormData();
       formData.append("file", file);
       const res = await axios.post(
-        "https://https://myblog-api-icp2.onrender.com/api/upload",
+        "https://myblog-api-icp2.onrender.com/api/upload",
         formData
       );
       return res.data;
