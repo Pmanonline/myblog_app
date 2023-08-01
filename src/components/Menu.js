@@ -13,7 +13,7 @@ export const Menu = ({ cat }) => {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          `http://myblog-api-icp2.onrender.com/api/posts/?cat=${cat}`
+          `https://myblog-api-icp2.onrender.com/api/posts/?cat=${cat}`
         );
         setPosts(res.data);
       } catch (err) {
