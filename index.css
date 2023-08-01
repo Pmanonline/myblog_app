@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+/*   */
+
+@layer base {
+  body {
+    @apply bg-[#fffff] text-[#1f2937] tracking-wide;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+}
+
+.postEvents:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  font-size: 15px;
+}
+.likebutton {
+  font-size: 15px;
+  /* width: 30px; */
+  border: none;
+}
+.likestyle {
+  color: blue;
+}
