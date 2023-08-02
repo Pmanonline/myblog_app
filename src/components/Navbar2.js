@@ -239,22 +239,7 @@ const Navbar2 = () => {
                     {currentUser?.username}
                   </span> */}
                 </li>
-                <li>
-                  {/* {currentUser ? (
-                      <span
-                        onClick={logout}
-                        className=" py-4 text-md  border-b text-blue font-medium  cursor-pointer"
-                      >
-                        Logout
-                      </span>
-                    ) : (
-                      <Link to="/Login">
-                        <a className=" py-4 text-md  border-b text-blue font-medium  cursor-pointer">
-                          login
-                        </a>
-                      </Link>
-                    )} */}
-                </li>
+                <li></li>
               </ul>
             </div>
           </div>
