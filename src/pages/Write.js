@@ -112,6 +112,16 @@ export default function Write() {
               placeholder="Post Title"
             />
           </div>
+          <div className="mid:mt-5 mid:mb-[4rem] mid:mx-4">
+            <input
+              type="text"
+              name="value"
+              placeholder="content"
+              value={value}
+              onChange={setValue}
+              className="h-[23.2rem] border-none md:w-[60vw]"
+            />
+          </div>
           {/* <div className="mid:mt-5 mid:mb-[4rem] mid:mx-4">
             <ReactQuill
               theme="snow"
