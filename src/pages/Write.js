@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-// import ReactQuill from "react-quill";
+import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import "../App.css";
 import axios from "axios";
@@ -112,14 +112,14 @@ export default function Write() {
               placeholder="Post Title"
             />
           </div>
-          {/* <div className="mid:mt-5 mid:mb-[4rem] mid:mx-4">
+          <div className="mid:mt-5 mid:mb-[4rem] mid:mx-4">
             <ReactQuill
               theme="snow"
               value={value}
               onChange={setValue}
               className="h-[23.2rem] border-none md:w-[60vw]"
             />
-          </div> */}
+          </div>
         </div>
         <div className="  col-span-5 gap-5 ">
           <div className="flex flex-col justify-between  border-2  my-5 gap-1 py-2  mx-2  px-1 mt-1 mr-3 md:ml-[3rem] mid:ml-4 ">
