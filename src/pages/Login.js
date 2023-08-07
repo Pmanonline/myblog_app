@@ -161,7 +161,7 @@ export default function Login() {
     e.preventDefault();
     try {
       await login(inputs);
-      navigate("/login");
+      navigate("/");
     } catch (err) {
       console.log(err);
       setError(err.response.data);
